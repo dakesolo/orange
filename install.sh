@@ -5,6 +5,7 @@ yum install -y openresty
 yum install -y openresty-resty
 yum install -y openresty-opm
 yum install -y wget
+yum install -y unzip
 
 # lua-resty-template
 wget https://github.com/bungle/lua-resty-template/archive/v1.9.tar.gz -O lua-resty-template-v1.9.tar.gz
