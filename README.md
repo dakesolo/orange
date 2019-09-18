@@ -21,3 +21,7 @@ At last:
 ```
 sh /home/orange/start.sh
 ```
+# View
+```$shell
+http://IP:9999
+```
