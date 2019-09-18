@@ -12,7 +12,7 @@ wget https://github.com/bungle/lua-resty-template/archive/v1.9.tar.gz -O lua-res
 tar zxvf lua-resty-template-v1.9.tar.gz
 cp -a ./lua-resty-template-1.9/lib/resty/* /usr/local/openresty/lualib/resty/
 
-# lua-resty-dns-client
+# lua-resty-cookie-client
 wget https://github.com/Kong/lua-resty-dns-client/archive/4.1.0.tar.gz -O lua-resty-dns-client-4.1.0.tar.gz
 tar zxvf lua-resty-dns-client-4.1.0.tar.gz
 cp -a ./lua-resty-dns-client-4.1.0/src/resty/* /usr/local/openresty/lualib/resty/
@@ -20,7 +20,7 @@ cp -a ./lua-resty-dns-client-4.1.0/src/resty/* /usr/local/openresty/lualib/resty
 # lua-resty-dns-client
 wget https://github.com/cloudflare/lua-resty-cookie/archive/v0.1.0.tar.gz -O lua-resty-cookie-v0.1.0.tar.gz
 tar zxvf lua-resty-cookie-v0.1.0.tar.gz
-cp -a ./lua-resty-cookie-v0.1.0/lib/resty/* /usr/local/openresty/lualib/resty/
+cp -a ./lua-resty-cookie-0.1.0/lib/resty/* /usr/local/openresty/lualib/resty/
 
 # luarocks
 wget https://luarocks.github.io/luarocks/releases/luarocks-3.2.1.tar.gz
