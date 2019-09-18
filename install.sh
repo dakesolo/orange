@@ -48,7 +48,7 @@ cd
 # lor
 wget https://github.com/orlabs/lor/archive/v0.3.4.tar.gz -O lor-v0.3.4.tar.gz
 tar zxvf lor-v0.3.4.tar.gz
-cp -a ./lor-0.3.4/lib/* /home/orange/lor
+cp -a ./lor-0.3.4/lib/* /home/orange/
 
 # start
 cd /home/orange
